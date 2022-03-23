@@ -43,6 +43,11 @@ li, a{
     font-weight: 400;
 }
 
+a:hover{
+    transition: .2s;
+    color: #ffffff;
+}
+
 .btn-navbar{
     padding: 10px 30px;
     background-color: #ffffff;
@@ -122,3 +127,20 @@ strong{
     color: #2A3A40;
     font-weight: 500;
 }
+
+footer {
+    background-color: #D2D7D9;
+    width: 50%;
+    cursor: default;
+  }
+  
+  .footer p {
+    color: #a5a5a5;
+    padding: 23px 23px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer span {
+    color: #2A3A40;
+  }
