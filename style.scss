@@ -19,6 +19,7 @@ header{
 }
 
 h1{
+    cursor: default;
     font-size: 40px;
     margin-left: 2rem;
     font-weight: 800;
@@ -46,7 +47,14 @@ li, a{
     padding: 10px 30px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border-radius: 4px;
+    border-radius: 25px;
+}
+
+.btn-navbar:hover{
+    transition: .2s;
+    background-color: #2A3A40;
+    border: solid 1px #D8EBF2;
+    color: #D2D7D9;
 }
 
 .frame1{
@@ -80,3 +88,37 @@ li, a{
     z-index: 2;
 }
 
+section{
+    width: 50%;
+    height: 100%;
+    padding: 200px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+strong{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.title-content{
+    margin-bottom: 2rem;
+    cursor: default;
+}
+
+.btn-content{
+    padding: 10px 110px;
+    background-color: #2A3A40;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.btn-content:hover{
+    transition: .2s;
+    background-color: #D8EBF2;
+    border: 1px solid #2A3A40;
+    color: #2A3A40;
+    font-weight: 500;
+}
