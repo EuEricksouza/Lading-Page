@@ -1,1 +1,106 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #D8EBF2;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #D8EBF2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 2rem;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#2A3A40, #5a4f4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 2rem;
+}
+
+li, a {
+  color: #D2D7D9;
+  z-index: 1;
+  list-style: none;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.btn-navbar {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 4px;
+}
+
+.frame1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  top: 0px;
+  background: #2A3A40;
+}
+
+.circle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(80deg, #34464d, #37484e);
+  -webkit-clip-path: circle(50% at center 90%);
+          clip-path: circle(50% at center 90%);
+  z-index: 1;
+}
+
+.frame1 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  z-index: 2;
+}
+/*# sourceMappingURL=style.css.map */
